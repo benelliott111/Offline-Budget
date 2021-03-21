@@ -28,7 +28,7 @@ app.listen(PORT, () => {
 });
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/budget',
+  process.env.MONGODB_URI || 'mongodb://localhost/bootcamp',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
